@@ -40,11 +40,13 @@ Started: 2026-11-15 ~03:53 WIB. Closes: 2026-11-20 20:49 WIB.
    bible: name, why an owl, palette hex codes, pose usage, how it was made).
 8. Pushed public repo https://github.com/Anyeps/aiprove-mascot via the
    Contents API (script `~/workspace/aiprove/push_mascot.py`, same pattern
-   as push_aiprove.py). Remote HEAD commit: <see push output>.
+   as push_aiprove.py). Remote HEAD commit:
+   1b0deefd37467ea6e985000c6cb380518672449c.
 9. Submitted link shape {link, handle} with link =
    https://raw.githubusercontent.com/Anyeps/aiprove-mascot/main/mascot.png,
-   handle `luna`. Expected HTTP 201 + provenance_ok.
-10. Verified via GET /api/me/submissions. Submission ID: <see below>.
+   handle `luna`. HTTP 201 + provenance_ok.
+10. Verified via GET /api/me/submissions (16 total). Submission ID:
+    0de67bef-1eb5-4f35-95ff-0ca699e14522.
 
 ## Notes
 
